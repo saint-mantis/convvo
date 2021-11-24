@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="eel.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        
+        }
+        #select-images{
+            bottom: -200px;
+        }
+        #next-images{
+            bottom: -1000px; 
+        }
+        
+
+    </style>
+</head>
+<body>
+    
+<button id="select-images"  onclick=select_images()>Select Images</button>
+
+<a href="imgtopdf2.html"><button id="next-images">Next</button></a>
+
+<script>
+function select_images(){
+
+    eel.select_img()
+}
+</script>
+
+</body>
+</html>
