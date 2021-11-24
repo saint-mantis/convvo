@@ -22,7 +22,7 @@ def select_img():
 
 @eel.expose
 def save_file():
-    files = [('All Files', '*.*'), ('Python Files', '*.py'),('Text Document', '*.txt')]
+    files = [('PDF', '*.pdf')]
     file = asksaveasfile(filetypes = files, defaultextension = files)
     pdf_path=file.name
     imgtopdf_pdf_array.append(pdf_path)
