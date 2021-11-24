@@ -16,6 +16,10 @@ imgtopdf_pdf_array=[]
 
 @eel.expose
 def select_img():
+    import tkinter
+    window=tkinter.Tk()
+    window.attributes("-topmost", True)
+    window.withdraw()
     img_path = filedialog.askopenfilename()
     print(img_path)
     imgtopdf_img_array.append(img_path)
