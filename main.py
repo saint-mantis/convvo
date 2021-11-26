@@ -106,7 +106,7 @@ def convert_pdftoimg():
 
 
 
-eel.start('pdftoimg.html',size=(1000, 600), position=(450,150))
+eel.start('imgtopdf2.html',size=(1000, 600), position=(450,150))
 
 
 
