@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script type="text/javascript" src="eel.js"></script>
+    <style rel="stylesheet" href="style.css"></style>
+    <style>
+        .body-id{
+
+background-color:black;
+}
+#where-to{
+height:50px;
+width:100px;
+}
+    </style>
 
 </head>
 <body>
+
     <button id="where-to" onclick=toSaveFile()>where do you want to save</button>
     <button id="convert-button" onclick=convert()>CONVERT</button>
+
 <script>
 function toSaveFile(){
     eel.save_file()
