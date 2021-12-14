@@ -90,7 +90,8 @@ def convert_pdftoimg():
 
     pdftoimg(pdftoimgopen_array[0],pdftoimgsave_array[0])
         
-   
+
+
 
     
 
@@ -106,7 +107,7 @@ def convert_pdftoimg():
 
 
 
-eel.start('imgtopdf2.html',size=(1000, 600), position=(450,150))
+eel.start('test.html',size=(1000, 600), position=(450,150))
 
 
 
