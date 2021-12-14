@@ -12,7 +12,7 @@ body{
     border-radius: 5px;
     position:absolute;
     top: 215;
-    left: 350;
+    left: 300;
     
     
 
@@ -25,8 +25,8 @@ body{
     border-radius: 5px;
     margin:10px;  
     position:absolute;
-    top: 475;
-    left: 800;
+    top: 400;
+    left: 700;
    
       
 }
@@ -37,4 +37,18 @@ body{
 #convert-button:hover{
     background-color: black;
     color:white;
+}
+#logo{
+    
+   position:absolute;
+   width:500px;
+   height:350px;
+   top:-100px;
+   left:170px;
+
+    
+}
+header{
+    top: -40px;
+    position:absolute;
 }
